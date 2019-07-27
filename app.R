@@ -1,12 +1,12 @@
 #LATEST!
 
 
-library(shiny)
-library(shinyjs)
+library("shiny", lib.loc="/usr/local/lib/R/site-library")
+library("shinyjs", lib.loc="/usr/local/lib/R/site-library")
 library("plotly", lib.loc="/usr/lib/R/site-library")
-library(ggplot2)
-library(RColorBrewer)
-library(lubridate)
+library("ggplot2", lib.loc="/usr/local/lib/R/site-library")
+library("RColorBrewer", lib.loc="/usr/local/lib/R/site-library")
+library("lubridate", lib.loc="/usr/local/lib/R/site-library")
 
 newData <- function() {
   rbind(base,data)
