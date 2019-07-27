@@ -3,7 +3,7 @@
 
 library(shiny)
 library(shinyjs)
-library(plotly)
+library("plotly", lib.loc="/usr/lib/R/site-library")
 library(ggplot2)
 library(RColorBrewer)
 library(lubridate)
